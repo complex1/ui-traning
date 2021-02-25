@@ -41,7 +41,7 @@
       <img src="https://miro.medium.com/max/628/0*nNYOfQXnnQ2i9edd" alt="">
     </div>
     <h1 v-if="wdPath" class="card_g animate__animated animate__fadeIn" :style="{left : '1500px', top: '0px'}">Core Of Web</h1>
-    <img v-if="wdPath" @click="html = !html" class=" card_g animate__animated animate__fadeInDown" width="200" :style="{left : '1500px', top: '100px'}" src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png" alt="">
+    <img v-if="wdPath" @click="html = !html" class=" card_g animate__animated animate__fadeInDown" width="200" :style="{left : '1500px', top: '100px'}" src="./html.png" alt="">
     <img v-if="wdPath" @click="css = !css" class=" card_g animate__animated animate__fadeInRight" width="200" :style="{left : '1500px', top: '300px'}" src="./css.png" alt="">
     <img v-if="wdPath" @click="js = !js" class=" card_g animate__animated animate__fadeInUp" width="200" :style="{left : '1500px', top: '500px'}" src="./js.png" alt="">
     <div v-if="html" class="glass card_g animate__animated animate__fadeInLeft" style="width: 300px;top: 100px; left: 1700px">
